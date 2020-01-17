@@ -22,7 +22,7 @@ class AcmeProductTests(unittest.TestCase):
         self.assertEqual(prod.explode(), "...BABOOM!!")
 
 
-class AcmeReportTests:
+class AcmeReportTests(unittest.TestCase):
     """Testing our reports for ACMEness"""
     def test_default_num_products(self):
         self.assertEqual(len(generate_products()), 30)
