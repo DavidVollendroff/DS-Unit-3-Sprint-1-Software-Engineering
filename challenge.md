@@ -268,6 +268,14 @@ career here, you'll have to answer the following:
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
+### Question #1
+In my opinion, an important part of code reviews is understanding preferences of readiblity and concision. I often format code such that it isn't as dense as it could be in favor of having the formatting match with other similar sections. It can help with readability above and beyond what comments provide.
+
+### Question #2
+Containers could helpful here because they provide a standardized environment. This would mean that everyone is operating in the same situation, down to the operating system.
+
+
+
 ### Part 8 - Turn it in!
 
 Provide all the files you wrote (`acme.py`, `acme_report.py`, and
