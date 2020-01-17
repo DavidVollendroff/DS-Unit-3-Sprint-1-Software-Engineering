@@ -30,7 +30,7 @@ class AcmeReportTests(unittest.TestCase):
     def test_legal_names(self):
         products = generate_products()
         for product in products:
-            split_name = product.name.split(seperator=' ', maxsplit=1)
+            split_name = product.name.split(separator=' ', maxsplit=1)
             self.assertIn(split_name[0], ADJECTIVES)
             self.assertIn(split_name[1], NOUNS)
 
